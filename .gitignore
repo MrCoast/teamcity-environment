@@ -1,0 +1,4 @@
+datadir/*
+logs/*
+!datadir/.gitkeep
+!logs/.gitkeep
