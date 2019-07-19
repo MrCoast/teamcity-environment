@@ -18,3 +18,5 @@ services:
     environment:
       - SERVER_URL=http://server:8111
       - AGENT_NAME=Regular Agent with Docker support
+      - DOCKER_IN_DOCKER=start
+    privileged: true
