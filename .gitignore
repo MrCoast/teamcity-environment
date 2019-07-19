@@ -2,3 +2,4 @@ datadir/*
 logs/*
 !datadir/.gitkeep
 !logs/.gitkeep
+registry-data

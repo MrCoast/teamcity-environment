@@ -20,3 +20,12 @@ services:
       - AGENT_NAME=Regular Agent with Docker support
       - DOCKER_IN_DOCKER=start
     privileged: true
+
+  registry:
+    image: registry:2
+    ports:
+    - "5000:5000"
+    environment:
+      REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
+    volumes:
+      - ./registry-data:/data
