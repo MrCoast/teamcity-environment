@@ -14,3 +14,5 @@ RUN apt-get update \
         stable" \
     && apt-get update \
     && apt-get install -y docker-ce docker-ce-cli containerd.io
+
+RUN echo 'DOCKER_OPTS="--insecure-registry=registry:5000"' >> /etc/default/docker
