@@ -17,7 +17,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - SERVER_URL=http://server:8111
-      - AGENT_NAME=Regular Agent with Docker support
+      - AGENT_NAME=Regular Agent with Docker and aws2-cli support
       - DOCKER_IN_DOCKER=start
     privileged: true
 
