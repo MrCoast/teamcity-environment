@@ -1,5 +1,5 @@
-datadir/*
+server-data/*
 logs/*
-!datadir/.gitkeep
+!server-data/.gitkeep
 !logs/.gitkeep
 registry-data
